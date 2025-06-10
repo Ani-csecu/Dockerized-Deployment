@@ -1,0 +1,13 @@
+for running
+docker compose up --build
+for stopping
+Ctrl+c
+for removing containers
+docker compose down
+
+for creating docker image (frontend)
+docker build -t frontend ./frontend
+
+docker image ls //to show the list of image
+
+docker compose up --detach // to compose but return the terminal
